@@ -1,0 +1,11 @@
+{
+  "name": "node-react-js-sandbox",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "this_is_a_json_comment__dev_linux_version_of_run_command": "npm run dev -w backend & npm run dev -w frontend",
+    "dev": "start cmd /k \"npm run dev -w backend\" & start cmd /k \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend",
+    "this_is_a_json_comment__backend_does_not_require_build_node_runs_it_directly": "N/A"
+  }
+}
