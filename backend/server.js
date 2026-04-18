@@ -1,5 +1,6 @@
 import cors from "cors";
 import express from "express";
+/** @type {typeof import('fs')} */
 import fs from "fs";                    // fs is a module namespace object, provides all the file system capabilities
 import path from "path";
 import { Transform } from "stream";
