@@ -39,7 +39,7 @@
 
 ## Known Gotchas
 - `frontend/src/main.jsx` imports `./App` while file is `app.jsx`; this works on Windows but is case-sensitive on Linux.
-- `backend/streams/*.js` files are placeholders and currently empty; active behavior lives in `backend/server.js`.
+- Route modules now live in `backend/streams/*.js`; keep route paths aligned with frontend cards when editing modules.
 
 ## Recent Fixes
 - Fixed `/api/pipe` endpoint: now uses correctly cased `fs.createReadStream()` / `fs.createWriteStream()`.
