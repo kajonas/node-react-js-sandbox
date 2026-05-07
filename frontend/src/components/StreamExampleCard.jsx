@@ -21,7 +21,10 @@ export default function StreamExampleCard({ title, onRun, output, children }) {
                 Close
             </button>
 
-            {/* Hide children tags/components when hidden === true */}
+            {/* regarding '{!hidden && (' code snip,
+                Here, we're basically saying if !hidden == true, then render, else not.
+                ** This is a React specific convention **
+           */}
             {!hidden && (
                 <div style={{ marginTop: 10 }}>
                     {children}

@@ -5,6 +5,7 @@ import { registerPipeRoute } from "./streams/pipe-example.js";
 import { registerReadableRoute } from "./streams/readable-example.js";
 import { registerSsrStreamRoute } from "./streams/ssr-stream-endpoint.js";
 import { registerTransformRoute } from "./streams/transform-example.js";
+import { registerWritableWithBackpressureManagementRoute } from "./streams/writable-with-backpressure-management-example.js";
 import { registerWritableRoute } from "./streams/writable-example.js";
 
 // Avoids CORS (Cross Origins error), by allowing Cross Origins (from 1 port to another)
@@ -14,6 +15,7 @@ const PORT = 3001;
 
 registerReadableRoute(app);
 registerWritableRoute(app);
+registerWritableWithBackpressureManagementRoute(app);
 registerTransformRoute(app);
 registerPipeRoute(app);
 registerFetchStreamRoute(app);

@@ -14,3 +14,8 @@ npm run dev
 // Debug
 Got to each project frontend, and backend, and read the README.txt
 for instructions on how to debug each project.
+
+// Accessing via browser
+To access the frontend, open a browser and navigate to --> http:localhost:5173.
+This url is the default for Vite.  It was found in the file frontend/vite.config.js,
+in the server section, under port.

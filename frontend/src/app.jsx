@@ -1,5 +1,6 @@
 import ReadableStreamUI from "./components/ReadableStreamUI";
 import WritableStreamUI from "./components/WritableStreamUI";
+import WritableStreamWithBackPressureManagmentUI from "./components/WritableStreamWithBackPressureManagmentUI";
 import TransformStreamUI from "./components/TransformStreamUI";
 import PipeStreamUI from "./components/PipeStreamUI";
 import FetchStreamUI from "./components/FetchStreamUI";
@@ -14,6 +15,7 @@ export default function App() {
 
             <ReadableStreamUI />
             <WritableStreamUI />
+            <WritableStreamWithBackPressureManagmentUI />
             <TransformStreamUI />
             <PipeStreamUI />
             <FetchStreamUI />
