@@ -46,4 +46,5 @@
 - Enhanced `frontend/src/api/api.js` `callEndpoint` to throw on non-2xx HTTP responses (improved error visibility).
 - Added JSDoc type hint for `fs` module import to improve IDE type inference in `backend/server.js`.
 
-
+## KAJ Rules for this project
+- Before referring to line numbers, reference the literal code text or re-read the current attached file.
